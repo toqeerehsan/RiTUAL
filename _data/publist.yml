@@ -1,0 +1,234 @@
+
+- title: "HyperLoader: Integrating Hypernetwork-Based LoRA and Adapter Layers into Multi-Task Transformers for Sequence Labelling"
+  authors: "Jesus-German Ortiz-Barajas, Helena Gomez-Adorno, Thamar Solorio"
+  abs: "We present HyperLoader, a simple approach that combines different parameter-efficient fine-tuning methods in a multi-task setting. To achieve this goal, our model uses a hypernetwork to generate the weights of these modules based on the task, the transformer layer, and its position within this layer. Our method combines the benefits of multi-task learning by capturing the structure of all tasks while reducing the task interference problem by encapsulating the task-specific knowledge in the generated weights and the benefits of combining different parameter-efficient methods to outperform full-fine tuning. We provide empirical evidence that HyperLoader outperforms previous approaches in most datasets and obtains the best average performance across tasks in high-resource and low-resource scenarios."
+  publisher: "arXiv preprint arXiv:2407.01411"
+  date: "2024/7/1"
+  url: "https://arxiv.org/abs/2407.01411"
+  pdf: "https://arxiv.org/pdf/2407.01411"
+  bibtex: |
+    @article{ortiz2024hyperloader,
+      title={HyperLoader: Integrating Hypernetwork-Based LoRA and Adapter Layers into Multi-Task Transformers for Sequence Labelling},
+      author={Ortiz-Barajas, Jesus-German and Gomez-Adorno, Helena and Solorio, Thamar},
+      journal={arXiv preprint arXiv:2407.01411},
+      year={2024}
+    }
+
+- title: "Multimodal-Attention Fusion for the Detection of Questionable Content in Videos"
+  authors: "Arnold Morales, Elaheh Baharlouei, Thamar Solorio, Hugo Jair Escalante"
+  abs: "We address the problem of questionable content filtering from videos, in particular, we focus on the detection of comic mischief. Attention-based models have been proposed to approach this problem, mostly relying on hierarchical cross-attention (HCA) for fusing multimodal information. While competitive performance has been obtained with such solutions, it is unclear whether the hierarchical mechanism is the best choice for this type of model. We explore in this paper the use of an alternative mechanism called parallel cross-attention (ParCA). Also, we propose the use of gated multimodal units (GMU) for fusing multiple multimodal attention mechanisms, besides the traditional concatenation. Experimental results show that the combination of parallel cross-attention and the use GMU improves considerably the performance of the reference model based on HCA."
+  publisher: "Mexican Conference on Pattern Recognition, 2024 Springer"
+  url: "https://link.springer.com/chapter/10.1007/978-3-031-62836-8_18"
+  date: "2024/6/17"
+  bibtex: |
+    @inproceedings{morales2024multimodal,
+      title={Multimodal-Attention Fusion for the Detection of Questionable Content in Videos},
+      author={Morales, Arnold and Baharlouei, Elaheh and Solorio, Thamar and Escalante, Hugo Jair},
+      booktitle={Mexican Conference on Pattern Recognition},
+      pages={188--199},
+      year={2024},
+      organization={Springer}
+    }
+
+- title: "Labeling Comic Mischief Content in Online Videos with a Multimodal Hierarchical-Cross-Attention Model"
+  authors: "Elaheh Baharlouei, Mahsa Shafaei, Yigeng Zhang, Hugo Jair Escalante, Thamar Solorio"
+  abs: "We address the challenge of detecting questionable content in online media, specifically the subcategory of comic mischief. This type of content combines elements such as violence, adult content, or sarcasm with humor, making it difficult to detect. Employing a multimodal approach is vital to capture the subtle details inherent in comic mischief content. To tackle this problem, we propose a novel end-to-end multimodal system for the task of comic mischief detection. As part of this contribution, we release a novel dataset for the targeted task consisting of three modalities: video, text (video captions and subtitles), and audio. We also design a HIerarchical Cross-attention model with CAPtions (HICCAP) to capture the intricate relationships among these modalities. The results show that the proposed approach makes a significant improvement over robust baselines and state-of-the-art models for comic mischief detection and its type classification. This emphasizes the potential of our system to empower users, to make informed decisions about the online content they choose to see. In addition, we conduct experiments on the UCF101, HMDB51, and XD-Violence datasets, comparing our model against other state-of-the-art approaches showcasing the outstanding performance of our proposed model in various scenarios."
+  publisher: "arXiv preprint arXiv:2406.07841"
+  url: "https://arxiv.org/abs/2406.07841"
+  pdf: "https://arxiv.org/pdf/2406.07841"
+  date: "2024/6/12"
+  bibtex: |
+    @article{baharlouei2024labeling,
+      title={Labeling Comic Mischief Content in Online Videos with a Multimodal Hierarchical-Cross-Attention Model},
+      author={Baharlouei, Elaheh and Shafaei, Mahsa and Zhang, Yigeng and Escalante, Hugo Jair and Solorio, Thamar},
+      journal={arXiv preprint arXiv:2406.07841},
+      year={2024}
+    }
+
+- title: "CVQA: Culturally-diverse Multilingual Visual Question Answering Benchmark"
+  authors: "David Romero, Chenyang Lyu, Haryo Akbarianto Wibowo, Teresa Lynn, Injy Hamed, Aditya Nanda Kishore, et al."
+  abs: "Visual Question Answering (VQA) is an important task in multimodal AI, and it is often used to test the ability of vision-language models to understand and reason on knowledge present in both visual and textual data. However, most of the current VQA models use datasets that are primarily focused on English and a few major world languages, with images that are typically Western-centric. While recent efforts have tried to increase the number of languages covered on VQA datasets, they still lack diversity in low-resource languages. More importantly, although these datasets often extend their linguistic range via translation or some other approaches, they usually keep images the same, resulting in narrow cultural representation. To address these limitations, we construct CVQA, a new Culturally-diverse multilingual Visual Question Answering benchmark, designed to cover a rich set of languages and cultures, where we engage native speakers and cultural experts in the data collection process. As a result, CVQA includes culturally-driven images and questions from across 28 countries on four continents, covering 26 languages with 11 scripts, providing a total of 9k questions. We then benchmark several Multimodal Large Language Models (MLLMs) on CVQA, and show that the dataset is challenging for the current state-of-the-art models. This benchmark can serve as a probing evaluation suite for assessing the cultural capability and bias of multimodal models and hopefully encourage more research efforts toward increasing cultural awareness and linguistic diversity in this field."
+  publisher: "arXiv preprint arXiv:2406.05967"
+  url: "https://arxiv.org/abs/2406.05967"
+  pdf: "https://arxiv.org/pdf/2406.05967"
+  date: "2024/6/10"
+  bibtex: |
+    @article{romero2024cvqa,
+      title={CVQA: Culturally-diverse Multilingual Visual Question Answering Benchmark},
+      author={Romero, David and Lyu, Chenyang and Wibowo, Haryo Akbarianto and Lynn, Teresa and Hamed, Injy and Kishore, Aditya Nanda and Mandal, Aishik and Dragonetti, Alina and Abzaliev, Artem and Tonja, Atnafu Lambebo and others},
+      journal={arXiv preprint arXiv:2406.05967},
+      year={2024}
+    }
+
+- title: "The Privileged Students: On the Value of Initialization in Multilingual Knowledge Distillation"
+  authors: "Haryo Akbarianto Wibowo, Thamar Solorio, Alham Fikri Aji"
+  date: "2024/6"
+  abs: "Knowledge distillation (KD) has proven to be a successful strategy to improve the performance of a smaller model in many NLP tasks. However, most of the work in KD only explores monolingual scenarios. In this paper, we investigate the value of KD in multilingual settings. We find the significance of KD and model initialization by analyzing how well the student model acquires multilingual knowledge from the teacher model. Our proposed method emphasizes copying the teacher model's weights directly to the student model to enhance initialization. Our finding shows that model initialization using copy-weight from the fine-tuned teacher contributes the most compared to the distillation process itself across various multilingual settings. Furthermore, we demonstrate that efficient weight initialization preserves multilingual capabilities even in low-resource scenarios."
+  publisher: "eprint arXiv:2406.16524"
+  url: "https://ui.adsabs.harvard.edu/abs/2024arXiv240616524A/abstract"
+  bibtex: |
+    @article{wibowo2024privileged,
+      title={The Privileged Students: On the Value of Initialization in Multilingual Knowledge Distillation},
+      author={Wibowo, Haryo Akbarianto and Solorio, Thamar and Aji, Alham Fikri},
+      journal={arXiv preprint arXiv:2406.16524},
+      year={2024}
+    }
+
+- title: "Adaptive Cross-lingual Text Classification through In-Context One-Shot Demonstrations"
+  authors: "Emilio Cueva, Adrian Lopez Monroy, Fernando Sánchez-Vega, Thamar Solorio"
+  date: "2024/6"
+  abs: "Zero-Shot Cross-lingual Transfer (ZS-XLT) utilizes a model trained in a source language to make predictions in another language, often with a performance loss. To alleviate this, additional improvements can be achieved through subsequent adaptation using examples in the target language. In this paper, we exploit In-Context Tuning (ICT) for One-Shot Cross-lingual transfer in the classification task by introducing In-Context Cross-lingual Transfer (IC-XLT). The novel concept involves training a model to learn from context examples and subsequently adapting it during inference to a target language by prepending a One-Shot context demonstration in that language. Our results show that IC-XLT successfully leverages target-language examples to improve the cross-lingual capabilities of the evaluated mT5 model, outperforming prompt-based models in the Zero and Few-shot scenarios adapted through fine-tuning. Moreover, we show that when source-language data is limited, the fine-tuning framework employed for IC-XLT performs comparably to prompt-based fine-tuning with significantly more training data in the source language."
+  publisher: "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)"
+  url: "https://aclanthology.org/2024.naacl-long.460/"
+  bibtex: |
+    @article{villa2024adaptive,
+      title={Adaptive Cross-lingual Text Classification through In-Context One-Shot Demonstrations},
+      author={Villa-Cueva, Emilio and L{\'o}pez-Monroy, A Pastor and S{\'a}nchez-Vega, Fernando and Solorio, Thamar},
+      journal={arXiv preprint arXiv:2404.02452},
+      year={2024}
+    }
+
+- title: "ROAST: Review-level Opinion Aspect Sentiment Target Joint Detection"
+  authors: "Siva Uday Sampreeth Chebolu, Franck Dernoncourt, Nedim Lipka, Thamar Solorio"
+  date: "2024/5/30"
+  abs: "Aspect-Based Sentiment Analysis (ABSA) has experienced tremendous expansion and diversity due to various shared tasks spanning several languages and fields and organized via SemEval workshops and Germeval. Nonetheless, a few shortcomings still need to be addressed, such as the lack of low-resource language evaluations and the emphasis on sentence-level analysis. To thoroughly assess ABSA techniques in the context of complete reviews, this research presents a novel task, Review-Level Opinion Aspect Sentiment Target (ROAST). ROAST seeks to close the gap between sentence-level and text-level ABSA by identifying every ABSA constituent at the review level. We extend the available datasets to enable ROAST, addressing the drawbacks noted in previous research by incorporating low-resource languages, numerous languages, and a variety of topics. Through this effort, ABSA research will be able to cover more ground and get a deeper comprehension of the task and its practical application in a variety of languages and domains (https://github.com/RiTUAL-UH/ROAST-ABSA)."
+  publisher: "arXiv preprint arXiv:2405.20274"
+  url: "https://arxiv.org/abs/2405.20274"
+  bibtex: |
+    @article{chebolu2024roast,
+      title={ROAST: Review-level Opinion Aspect Sentiment Target Joint Detection},
+      author={Chebolu, Siva Uday Sampreeth and Dernoncourt, Franck and Lipka, Nedim and Solorio, Thamar},
+      journal={arXiv preprint arXiv:2405.20274},
+      year={2024}
+    }
+
+- title: "OATS: A Challenge Dataset for Opinion Aspect Target Sentiment Joint Detection for Aspect-Based Sentiment Analysis"
+  authors: "Siva Uday Sampreeth Chebolu, Franck Dernoncourt, Nedim Lipka, Thamar Solorio"
+  date: "2024/5"
+  abs: "Aspect-based sentiment analysis (ABSA) delves into understanding sentiments specific to distinct elements within a user-generated review. It aims to analyze user-generated reviews to determine a) the target entity being reviewed, b) the high-level aspect to which it belongs, c) the sentiment words used to express the opinion, and d) the sentiment expressed toward the targets and the aspects. While various benchmark datasets have fostered advancements in ABSA, they often come with domain limitations and data granularity challenges. Addressing these, we introduce the OATS dataset, which encompasses three fresh domains and consists of 27,470 sentence-level quadruples and 17,092 review-level tuples. Our initiative seeks to bridge specific observed gaps in existing datasets: the recurrent focus on familiar domains like restaurants and laptops, limited data for intricate quadruple extraction tasks, and an occasional oversight of the synergy between sentence and review-level sentiments. Moreover, to elucidate OATS’s potential and shed light on various ABSA subtasks that OATS can solve, we conducted experiments, establishing initial baselines. We hope the OATS dataset augments current resources, paving the way for an encompassing exploration of ABSA (https://github. com/RiTUAL-UH/OATS-ABSA)."
+  publisher: "Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)"
+  url: "https://aclanthology.org/2024.lrec-main.1080/"
+  bibtex: |
+    @inproceedings{chebolu2024oats,
+      title={OATS: A Challenge Dataset for Opinion Aspect Target Sentiment Joint Detection for Aspect-Based Sentiment Analysis},
+      author={Chebolu, Siva Uday Sampreeth and Dernoncourt, Franck and Lipka, Nedim and Solorio, Thamar},
+      booktitle={Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)},
+      pages={12336--12347},
+      year={2024}
+    }
+
+- title: "NLP Progress in Indigenous Latin American Languages"
+  authors: "Atnafu Lambebo Tonja, Fazlourrahman Balouchzahi, Sabur Butt, Olga Kolesnikova, Hector Ceballos, Alexander Gelbukh, Thamar Solorio"
+  date: "2024/4/8"
+  publisher: "arXiv preprint arXiv:2404.05365"
+  abs: "The paper focuses on the marginalization of indigenous language communities in the face of rapid technological advancements. We highlight the cultural richness of these languages and the risk they face of being overlooked in the realm of Natural Language Processing (NLP). We aim to bridge the gap between these communities and researchers, emphasizing the need for inclusive technological advancements that respect indigenous community perspectives. We show the NLP progress of indigenous Latin American languages and the survey that covers the status of indigenous languages in Latin America, their representation in NLP, and the challenges and innovations required for their preservation and development. The paper contributes to the current literature in understanding the need and progress of NLP for indigenous communities of Latin America, specifically low-resource and indigenous communities in general."
+  url: "https://arxiv.org/abs/2404.05365"
+  bibtex: |
+    @article{tonja2024nlp,
+      title={NLP Progress in Indigenous Latin American Languages},
+      author={Tonja, Atnafu Lambebo and Balouchzahi, Fazlourrahman and Butt, Sabur and Kolesnikova, Olga and Ceballos, Hector and Gelbukh, Alexander and Solorio, Thamar},
+      journal={arXiv preprint arXiv:2404.05365},
+      year={2024}
+    }
+
+- title: "Interpreting Themes from Educational Stories"
+  authors: "Yigeng Zhang, Fabio A González, Thamar Solorio"
+  date: "2024/4/8"
+  publisher: "arXiv preprint arXiv:2404.05250"
+  abs: "Reading comprehension continues to be a crucial research focus in the NLP community. Recent advances in Machine Reading Comprehension (MRC) have mostly centered on literal comprehension, referring to the surface-level understanding of content. In this work, we focus on the next level - interpretive comprehension, with a particular emphasis on inferring the themes of a narrative text. We introduce the first dataset specifically designed for interpretive comprehension of educational narratives, providing corresponding well-edited theme texts. The dataset spans a variety of genres and cultural origins and includes human-annotated theme keywords with varying levels of granularity. We further formulate NLP tasks under different abstractions of interpretive comprehension toward the main idea of a story. After conducting extensive experiments with state-of-the-art methods, we found the task to be both challenging and significant for NLP research. The dataset and source code have been made publicly available to the research community at https://github.com/RiTUAL-UH/EduStory."
+  url: "https://arxiv.org/abs/2404.05250"
+  bibtex: |
+    @article{zhang2024interpreting,
+      title={Interpreting Themes from Educational Stories},
+      author={Zhang, Yigeng and Gonz{\'a}lez, Fabio A and Solorio, Thamar},
+      journal={arXiv preprint arXiv:2404.05250},
+      year={2024}
+    }
+
+- title: "Adaptive Cross-lingual Text Classification through In-Context One-Shot Demonstrations"
+  authors: "Emilio Villa-Cueva, A Pastor López-Monroy, Fernando Sánchez-Vega, Thamar Solorio"
+  date: "2024/4/3"
+  publisher: "arXiv preprint arXiv:2404.02452"
+  abs: "Zero-Shot Cross-lingual Transfer (ZS-XLT) utilizes a model trained in a source language to make predictions in another language, often with a performance loss. To alleviate this, additional improvements can be achieved through subsequent adaptation using examples in the target language. In this paper, we exploit In-Context Tuning (ICT) for One-Shot Cross-lingual transfer in the classification task by introducing In-Context Cross-lingual Transfer (IC-XLT). The novel concept involves training a model to learn from context examples and subsequently adapting it during inference to a target language by prepending a One-Shot context demonstration in that language. Our results show that IC-XLT successfully leverages target-language examples to improve the cross-lingual capabilities of the evaluated mT5 model, outperforming prompt-based models in the Zero and Few-shot scenarios adapted through fine-tuning. Moreover, we show that when source-language data is limited, the fine-tuning framework employed for IC-XLT performs comparably to prompt-based fine-tuning with significantly more training data in the source language"
+  url: "https://arxiv.org/abs/2404.02452"
+  bibtex: |
+    @article{villa2024adaptive,
+      title={Adaptive Cross-lingual Text Classification through In-Context One-Shot Demonstrations},
+      author={Villa-Cueva, Emilio and L{\'o}pez-Monroy, A Pastor and S{\'a}nchez-Vega, Fernando and Solorio, Thamar},
+      journal={arXiv preprint arXiv:2404.02452},
+      year={2024}
+    }
+
+- title: "Enhancing lecture video navigation with AI generated summaries"
+  authors: "Mohammad Rajiur Rahman, Raga Shalini Koka, Shishir K Shah, Thamar Solorio, Jaspal Subhlok"
+  date: "2024/4"
+  publisher: "Education and Information Technologies, 2024 Springer"
+  abs: "Video is an increasingly important resource in higher education. A key limitation of lecture video is that it is fundamentally a sequential information stream. Quickly accessing the content aligned with specific learning objectives in a video recording of a classroom lecture is challenging. Recent research has enabled automatic reorganization of a lecture video into segments discussing different subtopics. This paper explores AI generation of visual and textual summaries of lecture video segments to improve navigation. A visual summary consists of a subset of images in the video segment that are considered the most unique and important by image analysis. A textual summary consists of a set of keywords selected from the screen text in the video segment by analyzing several factors including frequency, font size, time on screen, and existence in domain and language dictionaries. Evaluation was performed against keywords and summary images selected by human experts with the following results for the most relevant formulations. AI driven keyword selection yielded an F-1 score of 0.63 versus 0.26 for keywords sampled randomly from valid keyword candidates. AI driven visual summary yielded an F-1 score of 0.70 versus 0.59 for K-medoid clustering that is often employed for similar tasks. Surveys showed that 79% (72%) of the users agreed that a visual (textual) summary made a lecture video more useful. This framework is implemented in Videopoints, a real-world lecture video portal available to educational institutions."
+  url: "https://link.springer.com/article/10.1007/s10639-023-11866-7"
+  bibtex: |
+    @article{rahman2024enhancing,
+      title={Enhancing lecture video navigation with AI generated summaries},
+      author={Rahman, Mohammad Rajiur and Koka, Raga Shalini and Shah, Shishir K and Solorio, Thamar and Subhlok, Jaspal},
+      journal={Education and Information Technologies},
+      volume={29},
+      number={6},
+      pages={7361--7384},
+      year={2024},
+      publisher={Springer}
+    }
+
+- title: "SemEval Task 1: Semantic Textual Relatedness for African and Asian Languages"
+  authors: "Nedjma Ousidhoum, Shamsuddeen Hassan Muhammad, Mohamed Abdalla, Idris Abdulmumin, Ibrahim Said Ahmad, et al."
+  date: "2024/3/27"
+  publisher: "arXiv preprint arXiv:2403.18933"
+  abs: "We present the first shared task on Semantic Textual Relatedness (STR). While earlier shared tasks primarily focused on semantic similarity, we instead investigate the broader phenomenon of semantic relatedness across 14 languages: Afrikaans, Algerian Arabic, Amharic, English, Hausa, Hindi, Indonesian, Kinyarwanda, Marathi, Moroccan Arabic, Modern Standard Arabic, Punjabi, Spanish, and Telugu. These languages originate from five distinct language families and are predominantly spoken in Africa and Asia -- regions characterised by the relatively limited availability of NLP resources. Each instance in the datasets is a sentence pair associated with a score that represents the degree of semantic textual relatedness between the two sentences. Participating systems were asked to rank sentence pairs by their closeness in meaning (i.e., their degree of semantic relatedness) in the 14 languages in three main tracks: (a) supervised, (b) unsupervised, and (c) crosslingual. The task attracted 163 participants. We received 70 submissions in total (across all tasks) from 51 different teams, and 38 system description papers. We report on the best-performing systems as well as the most common and the most effective approaches for the three different tracks."
+  url: "https://arxiv.org/abs/2403.18933"
+  bibtex: |
+    @article{ousidhoum2024semeval,
+      title={SemEval Task 1: Semantic Textual Relatedness for African and Asian Languages},
+      author={Ousidhoum, Nedjma and Muhammad, Shamsuddeen Hassan and Abdalla, Mohamed and Abdulmumin, Idris and Ahmad, Ibrahim Said and Ahuja, Sanchit and Aji, Alham Fikri and Araujo, Vladimir and Beloucif, Meriem and De Kock, Christine and others},
+      journal={arXiv preprint arXiv:2403.18933},
+      year={2024}
+    }
+
+- title: "Question-Instructed Visual Descriptions for Zero-Shot Video Question Answering"
+  authors: "David Romero, Thamar Solorio"
+  date: "2024/2/16"
+  publisher: "arXiv preprint arXiv:2402.10698"
+  abs: "We present Q-ViD, a simple approach for video question answering (video QA), that unlike prior methods, which are based on complex architectures, computationally expensive pipelines or use closed models like GPTs, Q-ViD relies on a single instruction-aware open vision-language model (InstructBLIP) to tackle videoQA using frame descriptions. Specifically, we create captioning instruction prompts that rely on the target questions about the videos and leverage InstructBLIP to obtain video frame captions that are useful to the task at hand. Subsequently, we form descriptions of the whole video using the question-dependent frame captions, and feed that information, along with a question-answering prompt, to a large language model (LLM). The LLM is our reasoning module, and performs the final step of multiple-choice QA. Our simple Q-ViD framework achieves competitive or even higher performances than current state of the art models on a diverse range of videoQA benchmarks, including NExT-QA, STAR, How2QA, TVQA and IntentQA."
+  url: "https://arxiv.org/abs/2402.10698"
+  bibtex: |
+    @article{romero2024question,
+      title={Question-Instructed Visual Descriptions for Zero-Shot Video Question Answering},
+      author={Romero, David and Solorio, Thamar},
+      journal={arXiv preprint arXiv:2402.10698},
+      year={2024}
+    }
+
+- title: "SemRel2024: A Collection of Semantic Textual Relatedness Datasets for 14 Languages"
+  authors: "Nedjma Ousidhoum, Shamsuddeen Hassan Muhammad, Mohamed Abdalla, Idris Abdulmumin, Ibrahim Said Ahmad, et al."
+  date: "2024/2/13"
+  publisher: "arXiv preprint arXiv:2402.08638"
+  abs: "Exploring and quantifying semantic relatedness is central to representing language. It holds significant implications across various NLP tasks, including offering insights into the capabilities and performance of Large Language Models (LLMs). While earlier NLP research primarily focused on semantic similarity, often within the English language context, we instead investigate the broader phenomenon of semantic relatedness. In this paper, we present SemRel, a new semantic relatedness dataset collection annotated by native speakers across 14 languages:Afrikaans, Algerian Arabic, Amharic, English, Hausa, Hindi, Indonesian, Kinyarwanda, Marathi, Moroccan Arabic, Modern Standard Arabic, Punjabi, Spanish, and Telugu. These languages originate from five distinct language families and are predominantly spoken in Africa and Asia -- regions characterised by a relatively limited availability of NLP resources. Each instance in the SemRel datasets is a sentence pair associated with a score that represents the degree of semantic textual relatedness between the two sentences. The scores are obtained using a comparative annotation framework. We describe the data collection and annotation processes, related challenges when building the datasets, and their impact and utility in NLP. We further report experiments for each language and across the different languages."
+  url: "https://arxiv.org/abs/2402.08638"
+  bibtex: |
+    @article{ousidhoum2024semrel2024,
+      title={SemRel2024: A Collection of Semantic Textual Relatedness Datasets for 14 Languages},
+      author={Ousidhoum, Nedjma and Muhammad, Shamsuddeen Hassan and Abdalla, Mohamed and Abdulmumin, Idris and Ahmad, Ibrahim Said and Ahuja, Sanchit and Aji, Alham Fikri and Araujo, Vladimir and Ayele, Abinew Ali and Baswani, Pavan and others},
+      journal={arXiv preprint arXiv:2402.08638},
+      year={2024}
+    }
+
+- title: "SemEval-2024 task 1: Semantic textual relatedness for african and asian languages"
+  authors: "Nedjma Ousidhoum, Shamsuddeen Hassan Muhammad, Mohamed Abdalla, Idris Abdulmumin, et al."
+  date: "2024"
+  publisher: "Proceedings of the 18th International Workshop on Semantic Evaluation (SemEval-2024). Association for Computational Linguistics"
+  abs: "We present the first shared task on Semantic Textual Relatedness (STR). While earlier shared tasks primarily focused on semantic similarity, we instead investigate the broader phenomenon of semantic relatedness across 14 languages: Afrikaans, Algerian Arabic, Amharic, English, Hausa, Hindi, Indonesian, Kinyarwanda, Marathi, Moroccan Arabic, Modern Standard Arabic, Punjabi, Spanish, and Telugu. These languages originate from five distinct language families and are predominantly spoken in Africa and Asia -- regions characterised by the relatively limited availability of NLP resources. Each instance in the datasets is a sentence pair associated with a score that represents the degree of semantic textual relatedness between the two sentences. Participating systems were asked to rank sentence pairs by their closeness in meaning (i.e., their degree of semantic relatedness) in the 14 languages in three main tracks: (a) supervised, (b) unsupervised, and (c) crosslingual. The task attracted 163 participants. We received 70 submissions in total (across all tasks) from 51 different teams, and 38 system description papers. We report on the best-performing systems as well as the most common and the most effective approaches for the three different tracks."
+  url: "https://arxiv.org/abs/2403.18933"
+  bibtex: |
+    @inproceedings{ousidhoum2024semeval,
+      title={SemEval-2024 task 1: Semantic textual relatedness for african and asian languages},
+      author={Ousidhoum, Nedjma and Muhammad, Shamsuddeen Hassan and Abdalla, Mohamed and Abdulmumin, Idris and Ahmad, Ibrahim Said and Ahuja, Sanchit and Aji, Alham Fikri and Araujo, Vladimir and Beloucif, Meriem and De Kock, Christine and others},
+      booktitle={Proceedings of the 18th International Workshop on Semantic Evaluation (SemEval-2024). Association for Computational Linguistics},
+      year={2024}
+    }

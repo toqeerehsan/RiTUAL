@@ -1,0 +1,282 @@
+---
+---
+
+@import "bootstrap";
+
+img { margin-bottom: 24px;
+     margin-top: 17px;
+    border-radius:2%;
+}
+
+
+body {
+	padding-top: 70px;
+}
+
+figcaption {
+    text-align: right;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+
+
+/* Top navigation bar */
+
+
+p.byline {
+	text-align: center;
+	font-size: 18px;
+	line-height: 36px;
+	margin-top: -24px;
+	margin-bottom: 48px;
+}
+
+
+pubtit {
+	font-weight: bold;
+}
+
+firstp {
+}
+
+.container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1000px; /* or 950px */
+}
+
+/* Home, News */
+#newsid p {
+	text-align: left;
+}
+
+#homeidtmp h1 {
+	text-align: center;
+}
+
+#newsid img {
+	margin-top: 6px;
+	margin-bottom: 6px;
+}
+
+/* Team & Publications */
+#gridid img { margin: 16px 22px 6px 0; border-radius:10%; box-shadow: 2px 2px 5px #888888 }
+#homeid img { margin: 0 0 0 0; border-radius:5%; box-shadow: 0px 0px 0px #888888 }
+#picid img { margin: 6px 3px 60px 6px; border-radius:1%; box-shadow: 2px 2px 5px #888888 }
+#gridid .row { margin-bottom: 24px; }
+
+
+/* Grid overrides */
+.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-5, .col-sm-6,
+.col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+	padding-left: 16px;
+	padding-right: 16px;
+}
+
+/* Grid overrides */
+.col-sm-4 {
+	padding-left: 26px;
+	padding-right: 26px;
+}
+
+
+/* Carusel */
+
+.carousel {
+    border-radius: 3px 3px 3px 3px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+/* ---------------------- custom css ---------------------------- */
+
+.space-below-nav{
+margin-top:15px;
+margin-bottom:25px;
+}
+
+// ----------------- custom color ------------------------------
+
+h4, h5{
+color: #5B6B6E;
+font-weight: 505;
+}
+
+h2,h3{
+color: #000080;
+}
+
+.sub-heading{
+color: #000080;
+font-size: 18px;
+}
+
+.gray{
+color: #5B6B6E;
+}
+
+.white{
+color: #fff;
+}
+
+.navy{
+color: #000080;
+}
+
+a, .sky{
+// color: #4ED5E7;
+color: #46cddf;
+}
+
+a:hover{
+color: #000080;
+}
+
+.bg-color{
+background-color: #c0d5d8;
+color: #fff;
+}
+
+.grayish{
+color: #9aa6b1;
+}
+
+.graylight{
+color:#99a7b2;
+}
+
+// -----------small sky button-----------------------------------
+.small-sky-btn {
+    display: inline-block;
+    padding: 3px 10px;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+//     color: #00bfff; /* Text color */
+    color: #46cddf;
+    background-color: #fff;
+    border: 2px solid #46cddf;
+    cursor: pointer;
+    margin-right:10px;
+    margin-bottom:0px;
+}
+
+.small-sky-btn:hover {
+    color: #fff;
+    background-color: #46cddf;
+    text-decoration: none;
+    text-transform: none;
+}
+
+//-------------------------custom button-----------------------------
+.custom-sky-btn {
+    display: inline-block;
+    padding: 5px 15px;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+//     color:#4ED5E7;
+    color: #46cddf;
+    background-color: #fff;
+    border: 2px solid #46cddf;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 0px;
+}
+
+.custom-sky-btn:hover {
+    color: #fff;
+    background-color: #46cddf;
+    text-decoration: none;
+    text-transform: none;
+}
+
+//----------------------- navbar  ----------------------------
+.navbar-default {
+//     background: linear-gradient(to right, #EEFDFF, #5B6B6E);
+//     background-color: #c0ced0;
+    background-color: #c0d5d8;
+    border: none;
+    border-bottom: 3px solid #E9E9E9;
+    padding: 20px 0px 10px 0px;
+    border-radius: 0px;
+}
+
+.navbar-default .navbar-header {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-default .navbar-brand {
+    display: flex;
+    align-items: center;
+    color: #fff; /* Text color */
+}
+
+.navbar-logo {
+    height: 70px;
+    width: auto;
+    margin-top: 20px;
+    margin-right: 10px;
+    padding:auto;
+}
+
+.navbar-logo:hover{
+    transform: scale(1.01);
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-nav > li > a:hover {
+    color:  #000080;
+    background-color: transparent;
+}
+
+
+
+.navbar-default .navbar-nav > li > a {
+    color: #5B6B6E;
+    font-weight:503;
+}
+
+//-------------------------- Footer -----------------------------
+
+#footer {
+    margin-top:15px;
+    background-color: #c0d5d8;
+    color: #fff;
+    padding: 20px 0;
+    border:none;
+    border-top: 3px solid #E9E9E9;
+    border-radius: 0px;
+}
+
+#footer p {
+    margin-bottom: 10px;
+}
+
+#footer a:hover {
+   color:  #000080;
+   text-decoration: none;
+   text-transform: none;
+}
+
+#footer a {
+   color: #30575E;
+}
+
+.footer-icon{
+   margin-right:5px;
+}
+
+.footer-bg{
+  background-color: transparent;
+}
