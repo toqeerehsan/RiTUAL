@@ -10,7 +10,7 @@ title: RiTUAL
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Website of the NLP Research Group at MBZUAI.
-baseurl: "/RiTUAL-Website"
+baseurl: "/RiTUAL"
 url: "https://toqeerehsan.github.io"
 
 include:
