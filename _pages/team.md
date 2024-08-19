@@ -10,7 +10,7 @@ permalink: /team/
 
 Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-students), [alumni](#alumni), [administrative support](#administrative-support).
 
-<h4 id="staff">Staff</h4>
+<h4 id="staff">Group Leader</h4>
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
 
