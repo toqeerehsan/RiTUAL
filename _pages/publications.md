@@ -51,12 +51,12 @@ Jump to [Under Review Articles](#under-review-articles), [Patents](#patents), [L
 <div class="row" style="margin-bottom:6px;padding-bottom:0px">
   <div class="col-sm-12 clearfix">
   <a class="a" data-toggle="collapse" href="#abstract-{{ forloop.index }}" role="button" aria-expanded="false" aria-controls="abstract-{{ forloop.index }}">
-    Abstract
+  Abstract
   </a>
-  <a class="small-sky-btn" href="{{ publi.url }}" target="_blank">
+  <a class="a" href="{{ publi.url }}" target="_blank">
     URL
   </a>
-  <a class="small-sky-btn" data-toggle="collapse" href="#bibtex-{{ forloop.index }}" role="button" aria-expanded="false" aria-controls="bibtex-{{ forloop.index }}">
+  <a class="a" data-toggle="collapse" href="#bibtex-{{ forloop.index }}" role="button" aria-expanded="false" aria-controls="bibtex-{{ forloop.index }}">
     BibTeX
   </a>
 </div>
