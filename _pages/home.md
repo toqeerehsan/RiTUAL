@@ -63,7 +63,9 @@ Welcome to the official website of the RiTUAL (Research in Text Understanding an
 
 <h3 class="navy">Research Focus</h3>
 
+<div style="text-align: justify;">
 Our academics in the Natural Language Processing (NLP) Research Group focus on developing advanced systems that enable computers to communicate with humans using everyday language. They are dedicated to creating technologies that translate information from computer databases into readable or audible human language and vice versa.
+</div>
 
 These innovative systems facilitate a range of sophisticated tasks, including:
 
@@ -81,8 +83,12 @@ Core applications of our NLP algorithms encompass:
 * Chatbots
 * Smart word processors
 
+<div style="text-align: justify;">
 Through these efforts, our group aims to enhance human-computer interaction and advance the capabilities of AI-driven linguistic analysis.
+</div>
 
 <h3>Explore Our Work</h3>
 
+<div style="text-align: justify;">
 Explore our publications, ongoing projects, and the expertise of our esteemed researchers who are shaping the future of AI-driven linguistic analysis. (<a href="{{ site.url }}{{ site.baseurl }}/publications">see more...</a>)
+</div>
