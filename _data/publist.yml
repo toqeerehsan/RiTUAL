@@ -1,3 +1,18 @@
+- title: "Question-Instructed Visual Descriptions for Zero-Shot Video Answering"
+  authors: "David Mogrovejo, Thamar Solorio"
+  abs: "We present Q-ViD, a simple approach for video question answering (video QA), that unlike prior methods, which are based on complex architectures, computationally expensive pipelines or use closed models like GPTs, Q-ViD relies on a single instruction-aware open vision-language model (InstructBLIP) to tackle videoQA using frame descriptions. Specifically, we create captioning instruction prompts that rely on the target questions about the videos and leverage InstructBLIP to obtain video frame captions that are useful to the task at hand. Subsequently, we form descriptions of the whole video using the question-dependent frame captions, and feed that information, along with a question-answering prompt, to a large language model (LLM). The LLM is our reasoning module, and performs the final step of multiple-choice QA. Our simple Q-ViD framework achieves competitive or even higher performances than current state of the art models on a diverse range of videoQA benchmarks, including NExT-QA, STAR, How2QA, TVQA and IntentQA."
+  publisher: "Findings of the Association for Computational Linguistics ACL 2024"
+  date: "2024/8"
+  url: "https://aclanthology.org/2024.findings-acl.555"
+  pdf: "https://aclanthology.org/2024.findings-acl.555"
+  bibtex: |
+    @inproceedings{mogrovejo2024question,
+    title={Question-Instructed Visual Descriptions for Zero-Shot Video Answering},
+    author={Mogrovejo, David and Solorio, Thamar},
+    booktitle={Findings of the Association for Computational Linguistics ACL 2024},
+    pages={9329--9339},
+    year={2024}
+  }
 
 - title: "HyperLoader: Integrating Hypernetwork-Based LoRA and Adapter Layers into Multi-Task Transformers for Sequence Labelling"
   authors: "Jesus-German Ortiz-Barajas, Helena Gomez-Adorno, Thamar Solorio"
