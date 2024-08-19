@@ -9,7 +9,7 @@ permalink: /team/
 <h3>Group Members</h3>
 
 <!--Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-students), [alumni](#alumni), [administrative support](#administrative-support). -->
-Jump to [postdocs](#postdocs), [doctoral students](#doctoral-students), [master students](#master-and-bachelor-students), [alumni](#alumni), [administrative support](#administrative-support).
+Jump to [postdocs](#postdocs), [doctoral students](#doctoral-students), [RAs](#research-assistants), [master students](#master-and-bachelor-students), [alumni](#alumni), [administrative support](#administrative-support).
 
 <h4 id="staff">Group Leader</h4>
 {% assign number_printed = 0 %}
@@ -90,6 +90,7 @@ Jump to [postdocs](#postdocs), [doctoral students](#doctoral-students), [master 
 
 <h4 id="doctoral-students">Doctoral Students</h4>
 
+<h4 id="research-assistants">Research Assistants</h4>
 
 <h4 id="master-and-bachelor-students">Master Students</h4>
 {% assign number_printed = 0 %}
