@@ -45,7 +45,7 @@ Jump to [Under Review Articles](#under-review-articles), [Patents](#patents), [L
 
 {% for publi in site.data.publist %}
 
-  <span class="navy">{{ publi.title }}</span><br /> 
+  <span class="gray">{{ publi.title }}</span><br /> 
   <em>{{ publi.authors }} </em><br />
   In: {{publi.publisher}}, <i>(Publication Date: {{ publi.date }})</i>
 <div class="row" style="margin-bottom:6px;padding-bottom:0px">
