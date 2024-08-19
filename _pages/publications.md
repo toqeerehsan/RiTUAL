@@ -50,13 +50,13 @@ Jump to [Under Review Articles](#under-review-articles), [Patents](#patents), [L
   In: {{publi.publisher}}, <i>(Publication Date: {{ publi.date }})</i>
 <div class="row" style="margin-bottom:1px;padding-bottom:0px">
   <div class="col-sm-12 clearfix">
-  <a class="a" data-toggle="collapse" href="#abstract-{{ forloop.index }}" role="button" aria-expanded="false" aria-controls="abstract-{{ forloop.index }}">
+  <a class=".sky" data-toggle="collapse" href="#abstract-{{ forloop.index }}" role="button" aria-expanded="false" aria-controls="abstract-{{ forloop.index }}">
   Abstract
   </a>
-  <a class="a" href="{{ publi.url }}" target="_blank">
+  <a class=".sky" href="{{ publi.url }}" target="_blank">
     URL
   </a>
-  <a class="a" data-toggle="collapse" href="#bibtex-{{ forloop.index }}" role="button" aria-expanded="false" aria-controls="bibtex-{{ forloop.index }}">
+  <a class=".sky" data-toggle="collapse" href="#bibtex-{{ forloop.index }}" role="button" aria-expanded="false" aria-controls="bibtex-{{ forloop.index }}">
     BibTeX
   </a>
 </div>
