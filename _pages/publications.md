@@ -8,6 +8,7 @@ permalink: /publications/
 
 <h3>Publications</h3>
 
+<!--
 Jump to [Under Review Articles](#under-review-articles), [Patents](#patents), [List of All Publications](#list-of-all-publications).
 
 <h4 id="under-review-articles"> Under Review Articles </h4>
@@ -40,7 +41,7 @@ Jump to [Under Review Articles](#under-review-articles), [Patents](#patents), [L
 
 {% endfor %}
 
-<h4 id="list-of-all-publications"> List of all Publications </h4>
+<h4 id="list-of-all-publications"> List of all Publications </h4>   -->
 
 {% for publi in site.data.publist %}
 
