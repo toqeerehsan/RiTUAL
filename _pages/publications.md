@@ -9,7 +9,7 @@ permalink: /publications/
 
 <h3>Publications</h3>
 <div>
-  For the latest publications, please visit: <a href="https://scholar.google.com/citations?hl=en&user=Gmjwy-IAAAAJ&view_op=list_works&sortby=pubdate" class="custom-sky-btn-2" target="_blank">GOOGLE SCHOLAR</a><br>
+  For the latest publications, please visit: <a href="https://scholar.google.com/citations?hl=en&user=Gmjwy-IAAAAJ&view_op=list_works&sortby=pubdate" class="small-sky-btn" target="_blank">GOOGLE SCHOLAR</a><br>
 </div>
 <!--
 Jump to [Under Review Articles](#under-review-articles), [Patents](#patents), [List of All Publications](#list-of-all-publications).
