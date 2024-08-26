@@ -7,8 +7,8 @@ permalink: /publications/
 ---
 
 <h3>Publications</h3>
-<div class="col-sm-12 clearfix">
-  <a href="{{ member.google_scholar }}" class="custom-sky-btn" target="_blank">GOOGLE SCHOLAR</a><br>
+<div>
+  For latest publications: <a href="{{ member.google_scholar }}" class="custom-sky-btn" target="_blank">GOOGLE SCHOLAR</a><br>
 </div>
 <!--
 Jump to [Under Review Articles](#under-review-articles), [Patents](#patents), [List of All Publications](#list-of-all-publications).
