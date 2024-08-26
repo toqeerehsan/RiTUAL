@@ -2,13 +2,14 @@
 title: "RiTUAL - Publications"
 layout: gridlay
 excerpt: "RiTUAL -- Publications."
+excerpt: "RiTUAL: Team members"
 sitemap: false
 permalink: /publications/
 ---
 
 <h3>Publications</h3>
 <div>
-  For latest publications: <a href="{{ member.google_scholar }}" class="custom-sky-btn" target="_blank">GOOGLE SCHOLAR</a><br>
+  For latest publications: <a href="{{ member.google_scholar }}" class="custom-sky-btn2" target="_blank">GOOGLE SCHOLAR</a><br>
 </div>
 <!--
 Jump to [Under Review Articles](#under-review-articles), [Patents](#patents), [List of All Publications](#list-of-all-publications).
